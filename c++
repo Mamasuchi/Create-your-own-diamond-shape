@@ -22,9 +22,9 @@ void diamond(int s=5, char c= '*')
     for (int i = s; i > 0; i--){
         for (int b = 0; b < space; b++){
             cout << " ";}
-        for (int d = 1; d<i; d++){
+        for (int d = 1; d<i-1; d++){
             cout << c;}
-        for(int e=1; e<=i; e++){
+        for(int e=1; e<=i-1; e++){
         	cout << c;}
 
         cout << endl;
