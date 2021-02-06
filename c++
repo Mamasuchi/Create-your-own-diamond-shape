@@ -20,7 +20,7 @@ void diamond(int s=5, char c= '*')
     space = 0;
 
     for (int i = s; i > 0; i--){
-        for (int b = 0; b < space; b++){
+        for (int b = 0; b <= space; b++){
             cout << " ";}
         for (int d = 1; d<i-1; d++){
             cout << c;}
